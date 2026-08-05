@@ -1,0 +1,569 @@
+{
+  "common": {
+    "appName": "UGC Stüdyo",
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "continue": "Devam Et",
+    "back": "Geri",
+    "logout": "Çıkış Yap",
+    "settings": "Ayarlar",
+    "dashboard": "Panelim"
+  },
+  "nav": {
+    "create": "Oluştur",
+    "history": "Geçmiş",
+    "workspaces": "Çalışma Alanları",
+    "integrations": "Entegrasyonlar",
+    "developer": "Geliştirici",
+    "settings": "Ayarlar",
+    "billing": "Faturalama"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "fullName": "Ad Soyad",
+    "fullNamePlaceholder": "Adınız Soyadınız",
+    "emailPlaceholder": "ornek@sirket.com",
+    "passwordPlaceholder": "En az 8 karakter",
+    "loginCta": "Hesabınız var mı?",
+    "signupCta": "Hesabınız yok mu?",
+    "orContinueWith": "veya",
+    "continueWithGoogle": "Google ile devam et",
+    "loginTitle": "Hesabınıza giriş yapın",
+    "signupTitle": "Ücretsiz hesap oluşturun",
+    "signupSubtitle": "Kayıt olun, 5 ücretsiz kredi kazanın",
+    "forgotPassword": "Şifremi unuttum",
+    "welcomeBack": "Tekrar hoş geldiniz",
+    "checkEmailTitle": "E-postanızı kontrol edin",
+    "checkEmailBody": "Doğrulama bağlantısı e-posta adresinize gönderildi. Bağlantıya tıklayarak hesabınızı aktifleştirin.",
+    "errors": {
+      "invalidEmail": "Geçerli bir e-posta adresi girin",
+      "passwordTooShort": "Şifre en az 8 karakter olmalıdır",
+      "invalidCredentials": "E-posta veya şifre hatalı",
+      "emailInUse": "Bu e-posta zaten kullanılıyor",
+      "generic": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "credits": {
+    "balance": "{count} Kredi",
+    "low": "Krediniz azalıyor",
+    "empty": "Krediniz bitti",
+    "cost": "{cost} kredi",
+    "photoLabel": "1 kredi",
+    "videoLabel": "3 kredi",
+    "lifestyleLabel": "2 kredi"
+  },
+  "studio": {
+    "title": "UGC Görsel & Video Üretici",
+    "subtitle": "Ürününüzü saniyeler içinde UGC tarzı içeriğe dönüştürün.",
+    "templateApplied": "Önceki bir üretimden şablon uygulandı — devam etmek için yeni bir ürün fotoğrafı seçin.",
+    "step1": "Ürün Görseli",
+    "step2": "Çıktı Tipi",
+    "step3": "Arkaplan",
+    "step4": "Özel Prompt",
+    "required": "*",
+    "optional": "opsiyonel",
+    "urlTab": "URL",
+    "fileTab": "Dosya Yükle",
+    "dragActive": "Dosyayı bırakın...",
+    "dragPrompt": "Sürükle & bırak veya tıkla",
+    "urlPlaceholder": "https://ornek.com/urun.jpg",
+    "bgUrlPlaceholder": "https://ornek.com/arkaplan.jpg",
+    "promptPlaceholder": "Örn: Yaz sabahı, doğal ışık, kahve masasında, minimalist stil...",
+    "maxFileSize": "Maks. 5 MB",
+    "submit": "Üretimi Başlat",
+    "processing": "İşleniyor...",
+    "outputTypes": {
+      "ugcPhoto": "UGC Fotoğraf",
+      "ugcVideo": "UGC Video",
+      "lifestyle": "Lifestyle Sahne",
+      "avatarVideo": "Konuşan Avatar / Uzun Video"
+    },
+    "comingSoonBadge": "Yakında",
+    "backgrounds": {
+      "none": "Otomatik",
+      "noneDesc": "varsayılan UGC arkaplanı",
+      "stock": "Stok galeriden seç",
+      "custom": "Kendi arkaplanım"
+    },
+    "stockLabels": {
+      "modern-salon": "Modern Salon",
+      "wooden-desk": "Ahşap Masa",
+      "marble-counter": "Mermer Tezgah",
+      "cafe-table": "Kafe Masası",
+      "beach-sand": "Kumsal",
+      "white-studio": "Beyaz Stüdyo",
+      "bathroom-tile": "Banyo",
+      "kitchen-counter": "Mutfak Tezgahı"
+    },
+    "campaigns": {
+      "label": "Bir kampanya şablonundan başla (opsiyonel)",
+      "items": {
+        "ramadanBayram": {
+          "name": "Ramazan & Bayram",
+          "prompt": "Sıcak Ramazan akşamı sofrası, yumuşak fener ışığı, hurma ve altın detaylar, bayram atmosferi"
+        },
+        "blackFriday": {
+          "name": "Black Friday",
+          "prompt": "Çarpıcı Black Friday indirim sahnesi, dramatik stüdyo ışığı, yüksek kontrast, dinamik enerji"
+        },
+        "mothersDay": {
+          "name": "Anneler Günü",
+          "prompt": "Yumuşak pastel Anneler Günü stili, taze çiçekler, nazik sabah ışığı, zarif mermer yüzey"
+        },
+        "newYear": {
+          "name": "Yılbaşı",
+          "prompt": "Şenlikli yılbaşı sofrası, bokeh ışık dizileri, konfeti, kutlama havası"
+        },
+        "singlesDay": {
+          "name": "11.11 İndirimi",
+          "prompt": "Şık modern 11.11 indirim sahnesi, minimalist mutfak tezgahı, net ve güçlü ışıklandırma"
+        }
+      }
+    },
+    "shopifyPicker": {
+      "label": "Shopify'dan İçe Aktar"
+    },
+    "models": {
+      "label": "Yapay Zeka Modeli",
+      "fluxDev": "Flux Dev (dengeli)",
+      "fluxSchnell": "Flux Schnell (hızlı)",
+      "fluxPro": "Flux Pro (en yüksek kalite)",
+      "klingStandard": "Kling Standard",
+      "klingPro": "Kling Pro (daha yüksek kalite)"
+    },
+    "errors": {
+      "fileTooLarge": "Dosya 5 MB sınırını aşıyor. Daha küçük bir dosya seçin veya URL kullanın.",
+      "fileReadError": "Dosya okunamadı.",
+      "noCredits": "Yeterli krediniz yok. Lütfen kredi satın alın.",
+      "uploadFailed": "Görsel yükleme başarısız. Tekrar deneyin.",
+      "jobFailed": "Üretim başarısız oldu. Krediniz iade edildi.",
+      "generic": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "compliance": {
+      "title": "Olası reklam politikası sorunu",
+      "categories": {
+        "healthClaim": "kanıtlanmamış sağlık iddiası",
+        "guaranteeClaim": "garantili sonuç iddiası",
+        "miracleClaim": "\"mucize\" ifadesi"
+      },
+      "disclaimer": "Otomatik anahtar kelime kontrolüdür, hukuki tavsiye değildir — reklam onayına Meta/TikTok karar verir."
+    },
+    "success": "Üretiminiz sıraya alındı. Tamamlandığında burada görünecek.",
+    "preview": {
+      "emptyHint": "Üretim ayarlarınızı yapın ve başlatın.",
+      "waiting": "Üretim bekleniyor...",
+      "processing": "Yapay zeka çalışıyor...",
+      "completed": "Üretim tamamlandı!",
+      "failed": "Üretim başarısız",
+      "refunded": "Krediniz iade edildi.",
+      "download": "İndir",
+      "share": "Paylaş",
+      "edit": "Düzenle"
+    },
+    "postEditor": {
+      "title": "Hızlı düzenleme",
+      "aspect": "Kırp",
+      "aspects": {
+        "original": "Orijinal",
+        "square": "1:1",
+        "portrait45": "4:5",
+        "story": "9:16",
+        "landscape": "16:9"
+      },
+      "caption": "Başlık",
+      "captionPlaceholder": "Görsele başlık ekle (opsiyonel)",
+      "download": "Düzenlenmiş görseli indir",
+      "loadFailed": "Görsel düzenleme için yüklenemedi. Normal indirme butonunu kullanın."
+    }
+  },
+  "history": {
+    "title": "Üretim Geçmişi",
+    "empty": "Henüz üretiminiz yok.",
+    "emptyAction": "İlk üretiminizi yapın",
+    "useAsTemplate": "Şablon olarak kullan",
+    "status": {
+      "pending": "Bekliyor",
+      "processing": "İşleniyor",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız"
+    },
+    "outputType": {
+      "ugcPhoto": "UGC Fotoğraf",
+      "ugcVideo": "UGC Video",
+      "lifestyle": "Lifestyle"
+    },
+    "workspaceFilter": {
+      "all": "Tümü"
+    }
+  },
+  "workspaces": {
+    "title": "Çalışma Alanları",
+    "subtitle": "Her müşteriniz için ayrı marka kiti ve kredi tahsisiyle çalışma alanları.",
+    "empty": "Henüz çalışma alanı yok. Yönettiğiniz her müşteri için bir tane oluşturun.",
+    "new": "Yeni Çalışma Alanı",
+    "name": "Ad",
+    "namePlaceholder": "örn. Acme Kozmetik",
+    "brandColor": "Marka Rengi",
+    "logoUrl": "Logo URL",
+    "logoUrlPlaceholder": "https://ornek.com/logo.png",
+    "creditAllocation": "Kredi Tahsisi",
+    "creditAllocationPlaceholder": "Sınırsız",
+    "creditsUsed": "{used} / {allocation} kredi kullanıldı",
+    "creditsUsedUnlimited": "{used} kredi kullanıldı",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "deleteConfirm": "Bu çalışma alanı silinsin mi? Üretim geçmişi korunur ama alansız kalır.",
+    "create": "Oluştur",
+    "saved": "Çalışma alanı kaydedildi.",
+    "saveFailed": "Çalışma alanı kaydedilemedi.",
+    "deleted": "Çalışma alanı silindi.",
+    "deleteFailed": "Çalışma alanı silinemedi."
+  },
+  "workspaceSwitcher": {
+    "personal": "Kişisel",
+    "manage": "Çalışma alanlarını yönet"
+  },
+  "integrations": {
+    "title": "Entegrasyonlar",
+    "subtitle": "Mağazanızı bağlayın, ürünleri doğrudan Studio'ya aktarın.",
+    "platforms": {
+      "shopify": "Shopify",
+      "trendyol": "Trendyol",
+      "amazon": "Amazon",
+      "etsy": "Etsy",
+      "ebay": "eBay",
+      "aliexpress": "AliExpress"
+    },
+    "shopify": {
+      "shopDomain": "Mağaza domaini",
+      "shopDomainPlaceholder": "magazaniz.myshopify.com",
+      "accessToken": "Admin API erişim anahtarı",
+      "accessTokenPlaceholder": "shpat_...",
+      "connect": "Bağlan",
+      "connecting": "Bağlanıyor...",
+      "connected": "Bağlı",
+      "disconnect": "Bağlantıyı Kes",
+      "connectFailed": "Mağaza bilgileri doğrulanamadı. Domain ve anahtarı kontrol edin.",
+      "connectedTo": "{shop} mağazasına bağlı",
+      "disconnected": "Mağaza bağlantısı kesildi.",
+      "disconnectFailed": "Bağlantı kesilemedi."
+    },
+    "comingSoon": "Yakında",
+    "comingSoonDesc": "Pazaryerinin kendi geliştirici uygulama onayını gerektirir — {platform} bağlamaya hazır olduğunuzda bunu kuracağız."
+  },
+  "developer": {
+    "title": "Geliştirici",
+    "subtitle": "Dashboard dışında üretim otomasyonu için API anahtarları ve webhook'lar.",
+    "apiKeys": {
+      "title": "API Anahtarları",
+      "empty": "Henüz API anahtarı yok.",
+      "new": "Yeni API Anahtarı",
+      "namePlaceholder": "örn. Prodüksiyon sunucusu",
+      "create": "Oluştur",
+      "revoke": "İptal Et",
+      "revokeConfirm": "Bu API anahtarı iptal edilsin mi? Bunu kullanan entegrasyonlar hemen çalışmayı durdurur.",
+      "newKeyWarning": "Bu anahtarı şimdi kopyalayın — tekrar göremezsiniz.",
+      "createFailed": "API anahtarı oluşturulamadı.",
+      "revoked": "API anahtarı iptal edildi.",
+      "revokeFailed": "API anahtarı iptal edilemedi."
+    },
+    "webhook": {
+      "title": "Webhook",
+      "description": "Bir üretim tamamlandığında veya başarısız olduğunda imzalı bir POST isteği alın.",
+      "url": "Endpoint URL",
+      "save": "Kaydet",
+      "remove": "Kaldır",
+      "secretLabel": "İmza gizli anahtarı (X-UGC-Signature başlığını doğrulayın)",
+      "saved": "Webhook kaydedildi.",
+      "saveFailed": "Webhook kaydedilemedi.",
+      "removed": "Webhook kaldırıldı.",
+      "removeFailed": "Webhook kaldırılamadı."
+    },
+    "quickstart": {
+      "title": "Hızlı Başlangıç"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Özellikler",
+      "showcase": "Örnekler",
+      "pricing": "Fiyatlandırma",
+      "faq": "SSS",
+      "login": "Giriş Yap",
+      "signup": "Ücretsiz Başla"
+    },
+    "hero": {
+      "title": "Dakikalar İçinde Reklam\nÜretin, Haftalarca Değil",
+      "subtitle": "Influencer aramaya, ajans ücretlerine ve günler süren çekimlere veda edin. Tek bir ürün fotoğrafını saniyeler içinde dikkat çekici UGC fotoğraf ve videolara dönüştürün.",
+      "cta": "Ücretsiz Başla",
+      "ctaSubtitle": "5 ücretsiz kredi, kredi kartı gerekmez",
+      "audienceToggle": {
+        "brand": "E-ticaret Markaları İçin",
+        "agency": "Ajanslar İçin"
+      },
+      "bullets": {
+        "brand": [
+          "Kendi ürün fotoğraflarınızı dakikalar içinde UGC içeriğe dönüştürün",
+          "Fotoğrafçı, model veya stüdyo gerekmez",
+          "TikTok, Reels ve reklam panellerine anında hazır"
+        ],
+        "agency": [
+          "Ek editör işe almadan her müşteri hesabı için üretim yapın",
+          "Kâr marjınızı koruyun — video başına prodüksiyon maliyeti yok",
+          "Müşteri kreatiflerini günler yerine dakikalar içinde teslim edin"
+        ]
+      }
+    },
+    "trust": {
+      "title": "İçerik yoğun her niş için tasarlandı",
+      "poweredBy": "fal.ai'nin en gelişmiş görsel ve video üretim modelleriyle çalışır",
+      "sectorsLabel": "Desteklenen Sektörler",
+      "sectors": ["Kozmetik & Güzellik", "Moda & Giyim", "Teknoloji & Elektronik", "Takviye Gıda & Wellness", "Performans Ajansları"],
+      "metrics": [
+        { "value": "3", "label": "Çıktı formatı" },
+        { "value": "<30sn", "label": "Ortalama üretim süresi" },
+        { "value": "5", "label": "Ücretsiz deneme kredisi" }
+      ]
+    },
+    "comparison": {
+      "title": "UGC İçin Ajans Fiyatı Ödemeyi Bırakın",
+      "subtitle": "Geleneksel prodüksiyon; oyuncu bulma, çekim ve kurgu — ve günlerce bekleme demektir. İşte fark bu.",
+      "traditional": {
+        "title": "Geleneksel Prodüksiyon",
+        "items": [
+          { "label": "Süre", "value": "Video başına 3–10 gün" },
+          { "label": "Maliyet", "value": "Video başına 3.000₺–15.000₺+" },
+          { "label": "Revizyon", "value": "Yeniden oyuncu ayarlama ve çekim" },
+          { "label": "Ekipman", "value": "Kamera, ışık, mekân, ekip" }
+        ]
+      },
+      "ours": {
+        "title": "{appName} İle",
+        "items": [
+          { "label": "Süre", "value": "Çıktı başına 60 saniyeden az" },
+          { "label": "Maliyet", "value": "Çıktı başına 1–3 kredi" },
+          { "label": "Revizyon", "value": "Anında yeniden üretim, sınırsız deneme" },
+          { "label": "Ekipman", "value": "Sadece bir ürün fotoğrafı" }
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl Çalışır",
+      "subtitle": "Ürün fotoğrafından paylaşıma hazır içeriğe üç adımda ulaşın.",
+      "steps": [
+        { "title": "Ürününüzü Yükleyin", "description": "URL ile veya dosya yükleyerek bir ürün fotoğrafı ekleyin — tek ham materyaliniz bu." },
+        { "title": "Çıktınızı Seçin", "description": "UGC Fotoğraf, UGC Video veya Lifestyle Sahne seçin, ardından bir arkaplan belirleyin: otomatik, stok galeri veya kendi arkaplanınız." },
+        { "title": "İndirin ve Paylaşın", "description": "Üretilen içeriğinizi saniyeler içinde alın ve doğrudan TikTok, Reels veya reklam hesabınızda yayınlayın." }
+      ]
+    },
+    "showcase": {
+      "title": "Neler Üretilebildiğini Görün",
+      "subtitle": "Marka ve ajansların bizi en çok kullandığı niş örnekleri.",
+      "disclaimer": "Temsili önizleme — gerçek üretimler kendi ürün fotoğrafınızdan platformda saniyeler içinde oluşturulur.",
+      "categories": [
+        { "name": "Kozmetik & Güzellik" },
+        { "name": "Moda & Giyim" },
+        { "name": "Teknoloji & Elektronik" },
+        { "name": "Takviye Gıda & Wellness" }
+      ]
+    },
+    "useCases": {
+      "title": "Her Ekip İçin Tasarlandı",
+      "subtitle": "İçeriği kim üretirse üretsin, ürün fotoğrafından bitmiş kreatife aynı platformda ulaşın.",
+      "items": [
+        { "title": "E-ticaret Markaları", "description": "Çekim ayarlamadan kendi ürün kataloğunuzu UGC tarzı fotoğraf ve videolara dönüştürün." },
+        { "title": "Ajanslar", "description": "Ek prodüksiyon kadrosu olmadan tek bir panelden her müşteri hesabı için UGC kreatifi üretin." },
+        { "title": "İçerik Üreticileri", "description": "Kamera, model veya stüdyoya gerek kalmadan hızlıca kaliteli ürün içeriği üretin." }
+      ]
+    },
+    "features": {
+      "title": "Neden UGC Stüdyo?",
+      "items": [
+        {
+          "title": "3 Çıktı Formatı",
+          "description": "UGC fotoğraf, UGC video ve lifestyle sahneler — tek platform, tüm ihtiyaçlarınız."
+        },
+        {
+          "title": "Saniyeler İçinde",
+          "description": "Yapay zeka destekli üretim ile saatler yerine saniyeler içinde profesyonel içerik elde edin."
+        },
+        {
+          "title": "Özelleştirilebilir",
+          "description": "Kendi arkaplanınızı ekleyin, stok galeriden seçin veya özel prompt ile tam kontrol sağlayın."
+        },
+        {
+          "title": "Basit, Kredi Bazlı Fiyatlandırma",
+          "description": "Sadece ürettiğiniz kadar ödeyin — fotoğraf için 1 kredi, lifestyle sahne için 2, video için 3 kredi. Sözleşme yok."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Fiyatlandırma",
+      "subtitle": "İhtiyacınıza uygun planı seçin. Kredi paketleri yakında satışa çıkıyor — şimdilik ücretsiz kredilerle başlayın.",
+      "footnote": "1 UGC fotoğraf = 1 kredi · 1 lifestyle sahne = 2 kredi · 1 UGC video = 3 kredi",
+      "badge": {
+        "popular": "En Popüler"
+      },
+      "billingToggle": { "monthly": "Aylık", "annual": "Yıllık", "save": "%20 Tasarruf" },
+      "annualBilledNote": "yıllık faturalandırılır",
+      "plans": [
+        {
+          "name": "Ücretsiz",
+          "price": "0 ₺",
+          "priceAnnual": "0 ₺",
+          "period": "",
+          "periodAnnual": "",
+          "credits": "5 kredi",
+          "description": "Denemek için ideal başlangıç.",
+          "features": [
+            "5 ücretsiz kredi",
+            "UGC fotoğraf, video ve lifestyle",
+            "Stok arkaplan galerisi",
+            "Kredi kartı gerekmez"
+          ],
+          "cta": "Ücretsiz Başla"
+        },
+        {
+          "name": "Başlangıç",
+          "price": "149 ₺",
+          "priceAnnual": "119 ₺",
+          "period": "/ay",
+          "periodAnnual": "/ay",
+          "credits": "50 kredi",
+          "description": "Düzenli içerik üreten küçük markalar için.",
+          "features": [
+            "50 kredi/ay",
+            "Öncelikli işlem kuyruğu",
+            "Özel arkaplan yükleme",
+            "E-posta desteği"
+          ],
+          "cta": "Yükselt",
+          "savingsBadge": "%20 Tasarruf"
+        },
+        {
+          "name": "Pro",
+          "price": "399 ₺",
+          "priceAnnual": "319 ₺",
+          "period": "/ay",
+          "periodAnnual": "/ay",
+          "credits": "200 kredi",
+          "description": "Yüksek hacimli e-ticaret markaları ve ajanslar için.",
+          "features": [
+            "200 kredi/ay",
+            "En yüksek işlem önceliği",
+            "Toplu üretim",
+            "Öncelikli destek"
+          ],
+          "cta": "Yükselt",
+          "highlighted": true,
+          "savingsBadge": "%20 Tasarruf"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        { "question": "Kredi sistemi nasıl işliyor?", "answer": "Her üretim, çıktı tipine göre kredi harcar: UGC fotoğraf için 1 kredi, lifestyle sahne için 2, UGC video için 3 kredi. Her hesap 5 ücretsiz kredi ile başlar." },
+        { "question": "Üretim başarısız olursa ne olur?", "answer": "Krediniz otomatik olarak iade edilir — başarısız üretim için asla ücretlendirilmezsiniz." },
+        { "question": "İstediğim zaman iptal edebilir miyim?", "answer": "Evet. Ücretli planlar hesap ayarlarınızdan istediğiniz zaman iptal edilebilir — sözleşme yükümlülüğü yoktur." },
+        { "question": "Yüklediğim ürün görseli güvende mi?", "answer": "Görselleriniz güvenli şekilde saklanır ve yalnızca talep ettiğiniz içeriği üretmek için kullanılır." },
+        { "question": "Üretilen içerikleri reklamlarımda kullanabilir miyim?", "answer": "Evet, ürettiğiniz içeriğin sahibi sizsiniz. Meta, TikTok gibi reklam platformlarının politikalarına uygunluk zamanla değişebildiği için kullanıcı sorumluluğundadır." },
+        { "question": "Ücretsiz plan var mı?", "answer": "Evet — kayıt olun ve kredi kartı gerekmeden 5 ücretsiz kredi kazanın." }
+      ]
+    },
+    "ctaBottom": {
+      "title": "Hemen Başlayın",
+      "subtitle": "5 ücretsiz kredi ile bugün deneyin.",
+      "cta": "Ücretsiz Hesap Oluştur"
+    },
+    "footer": {
+      "description": "Tek bir ürün fotoğrafını saniyeler içinde profesyonel UGC fotoğraf ve videolara dönüştürün.",
+      "useCasesTitle": "Kullanım Alanları",
+      "useCasesItems": ["E-ticaret Markaları", "Ajanslar", "İçerik Üreticileri"],
+      "featuresTitle": "Özellikler",
+      "featuresItems": ["UGC Fotoğraflar", "UGC Videolar", "Lifestyle Sahneler", "Özel Arkaplanlar"],
+      "companyTitle": "Şirket",
+      "companyItems": ["Fiyatlandırma", "Örnekler", "SSS"],
+      "legalTitle": "Yasal",
+      "legalItems": ["Kullanım Şartları", "Gizlilik Politikası", "Çerez Politikası"],
+      "copyright": "© {year} UGC Stüdyo · fal.ai ile güçlendirilmiştir"
+    }
+  },
+  "legal": {
+    "backToHome": "Ana sayfaya dön",
+    "lastUpdated": "Son güncelleme: Ağustos 2026",
+    "terms": {
+      "title": "Kullanım Şartları",
+      "sections": [
+        { "heading": "Şartların Kabulü", "body": "Bir hesap oluşturarak veya {appName} kullanarak bu Kullanım Şartları'nı kabul etmiş olursunuz. Kabul etmiyorsanız lütfen hizmeti kullanmayın." },
+        { "heading": "Hizmet Tanımı", "body": "{appName}, fal.ai'nin görsel ve video üretim modelleriyle çalışarak tek bir ürün fotoğrafını yapay zeka ile üretilmiş UGC fotoğraf, video ve lifestyle sahnelere dönüştürür." },
+        { "heading": "Hesaplar & Krediler", "body": "Her hesap ücretsiz deneme kredisiyle başlar. Her üretim, çıktı tipine göre kredi harcar. Bir üretim başarısız olursa krediniz otomatik olarak iade edilir." },
+        { "heading": "Üretilen İçeriğin Sahipliği", "body": "Ürettiğiniz içeriğin sahibi sizsiniz. Bu içeriği Meta veya TikTok gibi platformlarda yayınlarken ilgili platform politikalarına uygunluğu sağlamak sizin sorumluluğunuzdadır." },
+        { "heading": "Kabul Edilebilir Kullanım", "body": "Yalnızca kullanım hakkına sahip olduğunuz ürün görsellerini yükleyebilirsiniz. Hizmeti yasa dışı amaçlarla veya başkalarının haklarını ihlal edecek şekilde kullanamazsınız." },
+        { "heading": "Abonelik & İptal", "body": "Ücretli planlar hesap ayarlarınızdan istediğiniz zaman iptal edilebilir. Uzun vadeli sözleşme yükümlülüğü yoktur." },
+        { "heading": "Sorumluluk Sınırlaması", "body": "Hizmet \"olduğu gibi\" sunulur. Üretilen içeriğin kalitesi değişkenlik gösterebilir ve hizmeti kullanımınızdan doğan dolaylı zararlardan sorumlu değiliz." },
+        { "heading": "Bu Şartlardaki Değişiklikler", "body": "Bu şartları zaman zaman güncelleyebiliriz. Değişiklikler yürürlüğe girdikten sonra hizmeti kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir." },
+        { "heading": "İletişim", "body": "Bu şartlarla ilgili sorularınız varsa lütfen hesabınız veya bu sitedeki destek kanalları üzerinden bize ulaşın." }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "sections": [
+        { "heading": "Topladığımız Bilgiler", "body": "Hesap bilgilerinizi (ad, e-posta), yüklediğiniz ürün görsellerini, sizin adınıza üretilen içerikleri ve temel kullanım verilerini topluyoruz." },
+        { "heading": "Bilgilerinizi Nasıl Kullanıyoruz", "body": "Bu bilgileri üretim hizmetini sağlamak, taleplerinizi yapay zeka altyapı sağlayıcımız üzerinden işlemek, hesabınızı ve kredilerinizi yönetmek ve önemli hizmet güncellemelerini iletmek için kullanırız." },
+        { "heading": "Veri Depolama & Güvenlik", "body": "Hesap verileriniz ve görselleriniz güvenli şekilde saklanır; erişim yalnızca hizmeti işletmek için gerekli olanla sınırlıdır." },
+        { "heading": "Üçüncü Taraf İşleyiciler", "body": "Görsel ve video üretimini işlemek için fal.ai kullanıyoruz. Yüklediğiniz görseller yalnızca talep ettiğiniz içeriği üretmek amacıyla fal.ai'ye gönderilir." },
+        { "heading": "Haklarınız", "body": "Hesap verilerinize erişim, düzeltme veya silme talebinde istediğiniz zaman bulunabilirsiniz." },
+        { "heading": "Çerezler", "body": "Hizmeti işletmek için kullanılan çerezlerle ilgili ayrıntılar için Çerez Politikamıza bakın." },
+        { "heading": "Bu Politikadaki Değişiklikler", "body": "Bu politikayı zaman zaman güncelleyebiliriz. Periyodik olarak gözden geçirmenizi öneririz." },
+        { "heading": "İletişim", "body": "Bu politikayla ilgili sorularınız varsa lütfen hesabınız veya bu sitedeki destek kanalları üzerinden bize ulaşın." }
+      ]
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "sections": [
+        { "heading": "Çerez Nedir", "body": "Çerezler, web sitelerinin ziyaretiniz hakkındaki bilgileri hatırlamasına yardımcı olan, tarayıcınızda saklanan küçük dosyalardır." },
+        { "heading": "Zorunlu Çerezler", "body": "Oturumunuzu açık tutmak ve giriş durumunuzu sürdürmek için zorunlu çerezler kullanıyoruz. Hizmet bunlar olmadan çalışamaz." },
+        { "heading": "Üçüncü Taraf Reklam Çerezi Yok", "body": "Şu anda üçüncü taraf reklam veya takip çerezleri kullanmıyoruz." },
+        { "heading": "Çerezleri Yönetme", "body": "Çerezleri tarayıcı ayarlarınızdan kontrol edebilirsiniz. Zorunlu çerezleri devre dışı bırakmak giriş yapmanızı engelleyebilir." },
+        { "heading": "Bu Politikadaki Değişiklikler", "body": "Bu politikayı zaman zaman güncelleyebiliriz. Periyodik olarak gözden geçirmenizi öneririz." }
+      ]
+    }
+  },
+  "settings": {
+    "title": "Hesap Ayarları",
+    "profile": "Profil Bilgileri",
+    "fullName": "Ad Soyad",
+    "email": "E-posta",
+    "language": "Dil",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "ru": "Русский"
+    },
+    "saved": "Ayarlar kaydedildi.",
+    "saving": "Kaydediliyor...",
+    "saveFailed": "Kaydedilemedi. Lütfen tekrar deneyin.",
+    "demoBanner": "Demo modu aktif — gerçek veriler kaydedilmez.",
+    "billing": {
+      "title": "Faturalandırma",
+      "plans": { "FREE": "Ücretsiz", "STARTER": "Starter", "PRO": "Pro" },
+      "creditsLabel": "{count} kredi/ay",
+      "currentPlan": "Mevcut plan",
+      "upgrade": "Yükselt",
+      "redirecting": "Yönlendiriliyor...",
+      "notConfigured": "Ödeme sistemi henüz kurulmadı. Lütfen daha sonra tekrar deneyin."
+    },
+    "danger": "Tehlikeli Bölge",
+    "deleteAccount": "Hesabı Sil",
+    "deleting": "Siliniyor...",
+    "deleteFailed": "Hesap silinemedi. Lütfen tekrar deneyin.",
+    "deleteConfirm": "Bu işlem geri alınamaz. Hesabınız ve tüm verileriniz silinir."
+  }
+}

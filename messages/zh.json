@@ -1,0 +1,569 @@
+{
+  "common": {
+    "appName": "UGC Studio",
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "continue": "继续",
+    "back": "返回",
+    "logout": "退出登录",
+    "settings": "设置",
+    "dashboard": "控制台"
+  },
+  "nav": {
+    "create": "创建",
+    "history": "历史记录",
+    "workspaces": "工作区",
+    "integrations": "集成",
+    "developer": "开发者",
+    "settings": "设置",
+    "billing": "账单"
+  },
+  "auth": {
+    "login": "登录",
+    "signup": "注册",
+    "email": "电子邮箱",
+    "password": "密码",
+    "fullName": "姓名",
+    "fullNamePlaceholder": "您的姓名",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "至少 8 个字符",
+    "loginCta": "已有账户？",
+    "signupCta": "还没有账户？",
+    "orContinueWith": "或",
+    "continueWithGoogle": "使用 Google 继续",
+    "loginTitle": "登录您的账户",
+    "signupTitle": "创建免费账户",
+    "signupSubtitle": "注册即可获得 5 个免费积分",
+    "forgotPassword": "忘记密码",
+    "welcomeBack": "欢迎回来",
+    "checkEmailTitle": "请查收您的邮箱",
+    "checkEmailBody": "我们已向您的电子邮箱发送了验证链接。点击链接以激活您的账户。",
+    "errors": {
+      "invalidEmail": "请输入有效的电子邮箱地址",
+      "passwordTooShort": "密码必须至少为 8 个字符",
+      "invalidCredentials": "电子邮箱或密码错误",
+      "emailInUse": "该电子邮箱已被使用",
+      "generic": "发生错误，请重试。"
+    }
+  },
+  "credits": {
+    "balance": "{count} 积分",
+    "low": "积分即将用完",
+    "empty": "积分已用完",
+    "cost": "{cost} 积分",
+    "photoLabel": "1 积分",
+    "videoLabel": "3 积分",
+    "lifestyleLabel": "2 积分"
+  },
+  "studio": {
+    "title": "UGC 图片与视频生成器",
+    "subtitle": "几秒钟内将您的产品转换为 UGC 风格内容。",
+    "templateApplied": "已应用之前生成的模板 — 请选择一张新的产品图片以继续。",
+    "step1": "产品图片",
+    "step2": "输出类型",
+    "step3": "背景",
+    "step4": "自定义提示词",
+    "required": "*",
+    "optional": "可选",
+    "urlTab": "URL",
+    "fileTab": "上传文件",
+    "dragActive": "松开以放下文件...",
+    "dragPrompt": "拖放或点击上传",
+    "urlPlaceholder": "https://example.com/product.jpg",
+    "bgUrlPlaceholder": "https://example.com/background.jpg",
+    "promptPlaceholder": "例如：夏日早晨，自然光线，咖啡桌，极简风格...",
+    "maxFileSize": "最大 5 MB",
+    "submit": "开始生成",
+    "processing": "处理中...",
+    "outputTypes": {
+      "ugcPhoto": "UGC 照片",
+      "ugcVideo": "UGC 视频",
+      "lifestyle": "生活方式场景",
+      "avatarVideo": "会说话的虚拟形象 / 长视频"
+    },
+    "comingSoonBadge": "即将推出",
+    "backgrounds": {
+      "none": "自动",
+      "noneDesc": "默认 UGC 背景",
+      "stock": "从图库中选择",
+      "custom": "我自己的背景"
+    },
+    "stockLabels": {
+      "modern-salon": "现代客厅",
+      "wooden-desk": "木质书桌",
+      "marble-counter": "大理石台面",
+      "cafe-table": "咖啡桌",
+      "beach-sand": "沙滩",
+      "white-studio": "白色摄影棚",
+      "bathroom-tile": "浴室",
+      "kitchen-counter": "厨房台面"
+    },
+    "campaigns": {
+      "label": "从营销活动模板开始（可选）",
+      "items": {
+        "ramadanBayram": {
+          "name": "斋月与开斋节",
+          "prompt": "温馨的斋月晚宴桌面，柔和的灯笼光线，椰枣与金色点缀，节日氛围"
+        },
+        "blackFriday": {
+          "name": "黑色星期五",
+          "prompt": "醒目的黑色星期五促销场景，戏剧性的影棚灯光，高对比度，充满动感"
+        },
+        "mothersDay": {
+          "name": "母亲节",
+          "prompt": "柔和粉彩母亲节风格，新鲜花卉，柔和晨光，优雅大理石台面"
+        },
+        "newYear": {
+          "name": "新年",
+          "prompt": "喜庆的跨年桌面，散景灯串，彩带，庆祝氛围"
+        },
+        "singlesDay": {
+          "name": "双十一",
+          "prompt": "简约现代的双十一促销场景，极简厨房台面，清晰有力的灯光"
+        }
+      }
+    },
+    "shopifyPicker": {
+      "label": "从 Shopify 导入"
+    },
+    "models": {
+      "label": "AI 模型",
+      "fluxDev": "Flux Dev（均衡）",
+      "fluxSchnell": "Flux Schnell（快速）",
+      "fluxPro": "Flux Pro（最高质量）",
+      "klingStandard": "Kling 标准版",
+      "klingPro": "Kling 专业版（更高质量）"
+    },
+    "errors": {
+      "fileTooLarge": "文件超过 5 MB 限制。请选择更小的文件或使用 URL。",
+      "fileReadError": "无法读取文件。",
+      "noCredits": "积分不足，请购买更多积分。",
+      "uploadFailed": "图片上传失败，请重试。",
+      "jobFailed": "生成失败，您的积分已退还。",
+      "generic": "发生错误，请重试。"
+    },
+    "compliance": {
+      "title": "可能存在广告政策问题",
+      "categories": {
+        "healthClaim": "未经证实的健康声明",
+        "guaranteeClaim": "保证效果声明",
+        "miracleClaim": "\"奇迹\"类用语"
+      },
+      "disclaimer": "此为自动关键词检查，非法律意见 — 广告是否通过由 Meta/TikTok 最终决定。"
+    },
+    "success": "您的生成任务已加入队列，完成后将在此处显示。",
+    "preview": {
+      "emptyHint": "设置生成选项并开始。",
+      "waiting": "等待处理中...",
+      "processing": "AI 正在生成中...",
+      "completed": "生成完成！",
+      "failed": "生成失败",
+      "refunded": "您的积分已退还。",
+      "download": "下载",
+      "share": "分享",
+      "edit": "编辑"
+    },
+    "postEditor": {
+      "title": "快速编辑",
+      "aspect": "裁剪",
+      "aspects": {
+        "original": "原始",
+        "square": "1:1",
+        "portrait45": "4:5",
+        "story": "9:16",
+        "landscape": "16:9"
+      },
+      "caption": "文字说明",
+      "captionPlaceholder": "在图片上添加文字（可选）",
+      "download": "下载编辑后的图片",
+      "loadFailed": "无法加载图片进行编辑，请使用常规下载。"
+    }
+  },
+  "history": {
+    "title": "生成历史",
+    "empty": "暂无生成记录。",
+    "emptyAction": "创建您的第一个生成任务",
+    "useAsTemplate": "用作模板",
+    "status": {
+      "pending": "等待中",
+      "processing": "处理中",
+      "completed": "已完成",
+      "failed": "失败"
+    },
+    "outputType": {
+      "ugcPhoto": "UGC 照片",
+      "ugcVideo": "UGC 视频",
+      "lifestyle": "生活方式"
+    },
+    "workspaceFilter": {
+      "all": "全部"
+    }
+  },
+  "workspaces": {
+    "title": "工作区",
+    "subtitle": "为每个客户提供独立空间，配有专属品牌套件和积分分配。",
+    "empty": "暂无工作区。为您管理的每个客户创建一个。",
+    "new": "新建工作区",
+    "name": "名称",
+    "namePlaceholder": "例如 Acme 化妆品",
+    "brandColor": "品牌颜色",
+    "logoUrl": "Logo 链接",
+    "logoUrlPlaceholder": "https://example.com/logo.png",
+    "creditAllocation": "积分分配",
+    "creditAllocationPlaceholder": "无限制",
+    "creditsUsed": "已使用 {used} / {allocation} 积分",
+    "creditsUsedUnlimited": "已使用 {used} 积分",
+    "edit": "编辑",
+    "delete": "删除",
+    "deleteConfirm": "删除此工作区？其生成历史将被保留但不再关联工作区。",
+    "create": "创建",
+    "saved": "工作区已保存。",
+    "saveFailed": "保存工作区失败。",
+    "deleted": "工作区已删除。",
+    "deleteFailed": "删除工作区失败。"
+  },
+  "workspaceSwitcher": {
+    "personal": "个人",
+    "manage": "管理工作区"
+  },
+  "integrations": {
+    "title": "集成",
+    "subtitle": "连接您的店铺，将产品直接导入 Studio。",
+    "platforms": {
+      "shopify": "Shopify",
+      "trendyol": "Trendyol",
+      "amazon": "亚马逊",
+      "etsy": "Etsy",
+      "ebay": "eBay",
+      "aliexpress": "速卖通"
+    },
+    "shopify": {
+      "shopDomain": "店铺域名",
+      "shopDomainPlaceholder": "your-store.myshopify.com",
+      "accessToken": "Admin API 访问令牌",
+      "accessTokenPlaceholder": "shpat_...",
+      "connect": "连接",
+      "connecting": "连接中...",
+      "connected": "已连接",
+      "disconnect": "断开连接",
+      "connectFailed": "无法验证店铺凭据，请检查域名和令牌。",
+      "connectedTo": "已连接到 {shop}",
+      "disconnected": "店铺已断开连接。",
+      "disconnectFailed": "断开连接失败。"
+    },
+    "comingSoon": "即将推出",
+    "comingSoonDesc": "需要该平台自己的开发者应用审核 — 当您准备好连接 {platform} 时我们会为您配置。"
+  },
+  "developer": {
+    "title": "开发者",
+    "subtitle": "用于在仪表盘之外自动化生成任务的 API 密钥和 Webhook。",
+    "apiKeys": {
+      "title": "API 密钥",
+      "empty": "暂无 API 密钥。",
+      "new": "新建 API 密钥",
+      "namePlaceholder": "例如：生产服务器",
+      "create": "创建",
+      "revoke": "吊销",
+      "revokeConfirm": "确定要吊销此 API 密钥吗？使用它的任何集成都会立即停止工作。",
+      "newKeyWarning": "请立即复制此密钥 — 之后将无法再次查看。",
+      "createFailed": "创建 API 密钥失败。",
+      "revoked": "API 密钥已吊销。",
+      "revokeFailed": "吊销 API 密钥失败。"
+    },
+    "webhook": {
+      "title": "Webhook",
+      "description": "每当生成任务完成或失败时，接收一个已签名的 POST 请求。",
+      "url": "端点 URL",
+      "save": "保存",
+      "remove": "移除",
+      "secretLabel": "签名密钥（用于验证 X-UGC-Signature 请求头）",
+      "saved": "Webhook 已保存。",
+      "saveFailed": "保存 Webhook 失败。",
+      "removed": "Webhook 已移除。",
+      "removeFailed": "移除 Webhook 失败。"
+    },
+    "quickstart": {
+      "title": "快速开始"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "功能",
+      "showcase": "案例展示",
+      "pricing": "价格",
+      "faq": "常见问题",
+      "login": "登录",
+      "signup": "免费开始"
+    },
+    "hero": {
+      "title": "几分钟内制作广告\n而不是几周",
+      "subtitle": "无需寻找达人、支付代理费用或等待数天拍摄。几秒钟内将一张产品图片转化为吸引眼球的 UGC 图片和视频。",
+      "cta": "免费开始",
+      "ctaSubtitle": "5 个免费积分，无需信用卡",
+      "audienceToggle": {
+        "brand": "面向电商品牌",
+        "agency": "面向代理机构"
+      },
+      "bullets": {
+        "brand": [
+          "几分钟内将您自己的产品图片转化为 UGC 内容",
+          "无需摄影师、模特或摄影棚",
+          "即刻适配 TikTok、Reels 和广告平台"
+        ],
+        "agency": [
+          "无需增聘剪辑人员即可为每个客户账户生产内容",
+          "保护您的利润 — 不再产生按视频计费的制作成本",
+          "以分钟而非数天的速度交付客户创意内容"
+        ]
+      }
+    },
+    "trust": {
+      "title": "专为高内容需求的各类行业打造",
+      "poweredBy": "由 fal.ai 最先进的图像与视频生成模型驱动",
+      "sectorsLabel": "支持的行业",
+      "sectors": ["美妆与化妆品", "时尚与服装", "科技与数码", "保健品与健康", "效果营销代理机构"],
+      "metrics": [
+        { "value": "3", "label": "输出格式" },
+        { "value": "<30秒", "label": "平均生成时间" },
+        { "value": "5", "label": "免费试用积分" }
+      ]
+    },
+    "comparison": {
+      "title": "别再为 UGC 支付代理机构的价格",
+      "subtitle": "传统制作意味着选角、拍摄和剪辑 — 还要等上好几天。这就是区别所在。",
+      "traditional": {
+        "title": "传统制作方式",
+        "items": [
+          { "label": "耗时", "value": "每条视频 3–10 天" },
+          { "label": "成本", "value": "每条视频 ¥2,000–¥10,000+" },
+          { "label": "修改", "value": "需重新预约演员并重拍" },
+          { "label": "设备", "value": "摄像机、灯光、场地、团队" }
+        ]
+      },
+      "ours": {
+        "title": "使用 {appName}",
+        "items": [
+          { "label": "耗时", "value": "每个输出不到 60 秒" },
+          { "label": "成本", "value": "每个输出 1–3 积分" },
+          { "label": "修改", "value": "即时重新生成，次数不限" },
+          { "label": "设备", "value": "只需一张产品图片" }
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "使用流程",
+      "subtitle": "三步即可从产品图片得到可直接发布的内容。",
+      "steps": [
+        { "title": "上传您的产品", "description": "通过 URL 或上传文件添加产品图片 — 这是您唯一需要的原材料。" },
+        { "title": "选择输出类型", "description": "选择 UGC 照片、UGC 视频或生活方式场景，然后选择背景：自动、图库或您自己的背景。" },
+        { "title": "下载并发布", "description": "几秒钟内获取生成的内容，直接发布到 TikTok、Reels 或您的广告账户。" }
+      ]
+    },
+    "showcase": {
+      "title": "查看生成效果",
+      "subtitle": "品牌与代理机构最常使用我们的行业案例。",
+      "disclaimer": "示意预览 — 实际生成内容将在平台上根据您自己的产品图片在几秒钟内创建。",
+      "categories": [
+        { "name": "美妆与化妆品" },
+        { "name": "时尚与服装" },
+        { "name": "科技与数码" },
+        { "name": "保健品与健康" }
+      ]
+    },
+    "useCases": {
+      "title": "为各类团队打造",
+      "subtitle": "无论由谁制作内容，都能在同一平台上从产品图片直接得到成品创意。",
+      "items": [
+        { "title": "电商品牌", "description": "无需安排拍摄，即可将您自己的产品目录转化为 UGC 风格的照片和视频。" },
+        { "title": "代理机构", "description": "无需增加制作人员，即可在一个后台为每个客户账户生产 UGC 创意内容。" },
+        { "title": "内容创作者", "description": "无需相机、模特或摄影棚，即可快速生成精美的产品内容。" }
+      ]
+    },
+    "features": {
+      "title": "为什么选择 UGC Studio？",
+      "items": [
+        {
+          "title": "3 种输出格式",
+          "description": "UGC 照片、UGC 视频和生活方式场景 — 一个平台满足您的所有需求。"
+        },
+        {
+          "title": "秒级完成",
+          "description": "AI 驱动的生成技术，几秒钟内即可获得专业内容，而不再需要数小时。"
+        },
+        {
+          "title": "完全可定制",
+          "description": "添加自己的背景，从图库中选择，或使用自定义提示词实现完全掌控。"
+        },
+        {
+          "title": "简单的积分计费",
+          "description": "只为您生成的内容付费 — 照片 1 积分，生活方式场景 2 积分，视频 3 积分。无需签订合同。"
+        }
+      ]
+    },
+    "pricing": {
+      "title": "价格",
+      "subtitle": "选择适合您需求的方案。积分套餐即将上线 — 现在可先使用免费积分开始体验。",
+      "footnote": "1 张 UGC 照片 = 1 积分 · 1 个生活方式场景 = 2 积分 · 1 个 UGC 视频 = 3 积分",
+      "badge": {
+        "popular": "最受欢迎"
+      },
+      "billingToggle": { "monthly": "按月", "annual": "按年", "save": "节省 20%" },
+      "annualBilledNote": "按年计费",
+      "plans": [
+        {
+          "name": "免费版",
+          "price": "¥0",
+          "priceAnnual": "¥0",
+          "period": "",
+          "periodAnnual": "",
+          "credits": "5 积分",
+          "description": "体验产品的绝佳方式。",
+          "features": [
+            "5 个免费积分",
+            "UGC 照片、视频和生活方式场景",
+            "图库背景选择",
+            "无需信用卡"
+          ],
+          "cta": "免费开始"
+        },
+        {
+          "name": "入门版",
+          "price": "¥65",
+          "priceAnnual": "¥52",
+          "period": "/月",
+          "periodAnnual": "/月",
+          "credits": "50 积分",
+          "description": "适合定期发布内容的小型品牌。",
+          "features": [
+            "每月 50 积分",
+            "优先处理队列",
+            "自定义背景上传",
+            "邮件支持"
+          ],
+          "cta": "升级",
+          "savingsBadge": "节省 20%"
+        },
+        {
+          "name": "专业版",
+          "price": "¥175",
+          "priceAnnual": "¥140",
+          "period": "/月",
+          "periodAnnual": "/月",
+          "credits": "200 积分",
+          "description": "适合高产量的电商品牌与代理机构。",
+          "features": [
+            "每月 200 积分",
+            "最高处理优先级",
+            "批量生成",
+            "优先客服支持"
+          ],
+          "cta": "升级",
+          "highlighted": true,
+          "savingsBadge": "节省 20%"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        { "question": "积分是如何计算的？", "answer": "每次生成根据输出类型消耗积分：UGC 照片 1 积分，生活方式场景 2 积分，UGC 视频 3 积分。每个账户都会获得 5 个免费积分。" },
+        { "question": "生成失败会怎样？", "answer": "您的积分会自动退还 — 生成失败绝不会扣费。" },
+        { "question": "我可以随时取消吗？", "answer": "可以。付费方案可随时在账户设置中取消 — 没有合约束缚。" },
+        { "question": "我上传的产品图片安全吗？", "answer": "您的图片会被安全存储，且仅用于生成您所请求的内容。" },
+        { "question": "我可以在广告中使用生成的内容吗？", "answer": "可以，您拥有所生成内容的所有权。由于各广告平台（Meta、TikTok 等）的政策会不断变化，遵守其政策是您自己的责任。" },
+        { "question": "有免费方案吗？", "answer": "有 — 注册即可获得 5 个免费积分，无需信用卡。" }
+      ]
+    },
+    "ctaBottom": {
+      "title": "立即开始",
+      "subtitle": "今天就用 5 个免费积分体验一下。",
+      "cta": "创建免费账户"
+    },
+    "footer": {
+      "description": "几秒钟内将一张产品图片转化为专业的 UGC 照片和视频。",
+      "useCasesTitle": "使用场景",
+      "useCasesItems": ["电商品牌", "代理机构", "内容创作者"],
+      "featuresTitle": "功能",
+      "featuresItems": ["UGC 照片", "UGC 视频", "生活方式场景", "自定义背景"],
+      "companyTitle": "公司",
+      "companyItems": ["价格", "案例展示", "常见问题"],
+      "legalTitle": "法律",
+      "legalItems": ["服务条款", "隐私政策", "Cookie 政策"],
+      "copyright": "© {year} UGC Studio · 由 fal.ai 提供支持"
+    }
+  },
+  "legal": {
+    "backToHome": "返回首页",
+    "lastUpdated": "最近更新：2026 年 8 月",
+    "terms": {
+      "title": "服务条款",
+      "sections": [
+        { "heading": "条款接受", "body": "创建账户或使用 {appName} 即表示您同意本服务条款。如果您不同意，请勿使用本服务。" },
+        { "heading": "服务说明", "body": "{appName} 由 fal.ai 的图像与视频生成模型驱动，可将一张产品图片转化为 AI 生成的 UGC 照片、视频和生活方式场景。" },
+        { "heading": "账户与积分", "body": "每个账户都会获得免费试用积分。每次生成会根据输出类型消耗积分。如果生成失败，您的积分将自动退还。" },
+        { "heading": "生成内容的所有权", "body": "您拥有所生成内容的所有权。在 Meta、TikTok 等平台发布该内容时，确保遵守相应平台政策是您自己的责任。" },
+        { "heading": "可接受的使用", "body": "您只能上传您拥有使用权的产品图片。不得将本服务用于非法目的或侵犯他人权利。" },
+        { "heading": "订阅与取消", "body": "付费方案可随时在账户设置中取消，无需长期合约。" },
+        { "heading": "责任限制", "body": "本服务按“现状”提供。生成内容的质量可能有所不同，我们对因使用本服务而产生的间接损失不承担责任。" },
+        { "heading": "条款变更", "body": "我们可能会不时更新本条款。变更生效后继续使用本服务即表示您接受更新后的条款。" },
+        { "heading": "联系我们", "body": "如果您对本条款有任何疑问，请通过您的账户或本网站提供的支持渠道与我们联系。" }
+      ]
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "sections": [
+        { "heading": "我们收集的信息", "body": "我们收集您的账户信息（姓名、电子邮箱）、您上传的产品图片、为您生成的内容以及基本使用数据。" },
+        { "heading": "我们如何使用您的信息", "body": "我们使用这些信息来提供生成服务、通过我们的 AI 基础设施提供商处理您的请求、管理您的账户与积分，并传达重要的服务更新。" },
+        { "heading": "数据存储与安全", "body": "您的账户数据和图片会被安全存储，访问权限仅限于运营服务所必需的范围。" },
+        { "heading": "第三方处理方", "body": "我们使用 fal.ai 处理图像与视频生成。您上传的图片仅会被发送给 fal.ai 以生成您请求的内容。" },
+        { "heading": "您的权利", "body": "您可以随时申请访问、更正或删除您的账户数据。" },
+        { "heading": "Cookie", "body": "有关运营本服务所使用的 Cookie 的详细信息，请参阅我们的 Cookie 政策。" },
+        { "heading": "本政策的变更", "body": "我们可能会不时更新本政策，建议您定期查看。" },
+        { "heading": "联系我们", "body": "如果您对本政策有任何疑问，请通过您的账户或本网站提供的支持渠道与我们联系。" }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie 政策",
+      "sections": [
+        { "heading": "什么是 Cookie", "body": "Cookie 是存储在您浏览器中的小文件，帮助网站记住有关您访问的信息。" },
+        { "heading": "必要 Cookie", "body": "我们使用必要 Cookie 来保持您的登录状态。没有这些 Cookie，本服务将无法运行。" },
+        { "heading": "不使用第三方广告 Cookie", "body": "我们目前不使用第三方广告或跟踪 Cookie。" },
+        { "heading": "管理 Cookie", "body": "您可以通过浏览器设置控制 Cookie。禁用必要 Cookie 可能导致您无法登录。" },
+        { "heading": "本政策的变更", "body": "我们可能会不时更新本政策，建议您定期查看。" }
+      ]
+    }
+  },
+  "settings": {
+    "title": "账户设置",
+    "profile": "个人资料",
+    "fullName": "姓名",
+    "email": "电子邮箱",
+    "language": "语言",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "ru": "Русский"
+    },
+    "saved": "设置已保存。",
+    "saving": "保存中...",
+    "saveFailed": "保存失败，请重试。",
+    "demoBanner": "演示模式已启用 — 不会保存真实数据。",
+    "billing": {
+      "title": "账单",
+      "plans": { "FREE": "免费", "STARTER": "Starter", "PRO": "Pro" },
+      "creditsLabel": "{count} 积分/月",
+      "currentPlan": "当前套餐",
+      "upgrade": "升级",
+      "redirecting": "跳转中...",
+      "notConfigured": "支付功能尚未配置，请稍后再试。"
+    },
+    "danger": "危险区域",
+    "deleteAccount": "删除账户",
+    "deleting": "删除中...",
+    "deleteFailed": "删除账户失败，请重试。",
+    "deleteConfirm": "此操作不可撤销。您的账户和所有数据将被删除。"
+  }
+}

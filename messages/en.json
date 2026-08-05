@@ -1,0 +1,569 @@
+{
+  "common": {
+    "appName": "UGC Studio",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "logout": "Log out",
+    "settings": "Settings",
+    "dashboard": "Dashboard"
+  },
+  "nav": {
+    "create": "Create",
+    "history": "History",
+    "workspaces": "Workspaces",
+    "integrations": "Integrations",
+    "developer": "Developer",
+    "settings": "Settings",
+    "billing": "Billing"
+  },
+  "auth": {
+    "login": "Log in",
+    "signup": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Your full name",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "At least 8 characters",
+    "loginCta": "Already have an account?",
+    "signupCta": "Don't have an account?",
+    "orContinueWith": "or",
+    "continueWithGoogle": "Continue with Google",
+    "loginTitle": "Sign in to your account",
+    "signupTitle": "Create a free account",
+    "signupSubtitle": "Sign up and get 5 free credits",
+    "forgotPassword": "Forgot password",
+    "welcomeBack": "Welcome back",
+    "checkEmailTitle": "Check your email",
+    "checkEmailBody": "We've sent a verification link to your email address. Click the link to activate your account.",
+    "errors": {
+      "invalidEmail": "Enter a valid email address",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "invalidCredentials": "Incorrect email or password",
+      "emailInUse": "This email is already in use",
+      "generic": "An error occurred. Please try again."
+    }
+  },
+  "credits": {
+    "balance": "{count} Credits",
+    "low": "Credits running low",
+    "empty": "Out of credits",
+    "cost": "{cost} credit",
+    "photoLabel": "1 credit",
+    "videoLabel": "3 credits",
+    "lifestyleLabel": "2 credits"
+  },
+  "studio": {
+    "title": "UGC Visual & Video Creator",
+    "subtitle": "Transform your product into UGC-style content in seconds.",
+    "templateApplied": "Template applied from a previous generation — pick a new product photo to continue.",
+    "step1": "Product Image",
+    "step2": "Output Type",
+    "step3": "Background",
+    "step4": "Custom Prompt",
+    "required": "*",
+    "optional": "optional",
+    "urlTab": "URL",
+    "fileTab": "Upload File",
+    "dragActive": "Drop the file...",
+    "dragPrompt": "Drag & drop or click",
+    "urlPlaceholder": "https://example.com/product.jpg",
+    "bgUrlPlaceholder": "https://example.com/background.jpg",
+    "promptPlaceholder": "E.g. Summer morning, natural light, coffee table, minimalist style...",
+    "maxFileSize": "Max. 5 MB",
+    "submit": "Start Generation",
+    "processing": "Processing...",
+    "outputTypes": {
+      "ugcPhoto": "UGC Photo",
+      "ugcVideo": "UGC Video",
+      "lifestyle": "Lifestyle Scene",
+      "avatarVideo": "Speaking Avatar / Long Video"
+    },
+    "comingSoonBadge": "Coming soon",
+    "backgrounds": {
+      "none": "Automatic",
+      "noneDesc": "default UGC background",
+      "stock": "Choose from gallery",
+      "custom": "My own background"
+    },
+    "stockLabels": {
+      "modern-salon": "Modern Living Room",
+      "wooden-desk": "Wooden Desk",
+      "marble-counter": "Marble Counter",
+      "cafe-table": "Cafe Table",
+      "beach-sand": "Beach Sand",
+      "white-studio": "White Studio",
+      "bathroom-tile": "Bathroom",
+      "kitchen-counter": "Kitchen Counter"
+    },
+    "campaigns": {
+      "label": "Start from a campaign (optional)",
+      "items": {
+        "ramadanBayram": {
+          "name": "Ramadan & Eid",
+          "prompt": "Warm Ramadan evening table setting, soft lantern light, dates and gold accents, festive atmosphere"
+        },
+        "blackFriday": {
+          "name": "Black Friday",
+          "prompt": "Bold Black Friday sale display, dramatic studio lighting, high contrast, dynamic energy"
+        },
+        "mothersDay": {
+          "name": "Mother's Day",
+          "prompt": "Soft pastel Mother's Day styling, fresh flowers, gentle morning light, elegant marble surface"
+        },
+        "newYear": {
+          "name": "New Year",
+          "prompt": "Festive New Year's Eve table, string lights bokeh, confetti, celebratory mood"
+        },
+        "singlesDay": {
+          "name": "11.11 Sale",
+          "prompt": "Sleek modern 11.11 sale display, minimalist kitchen counter, bold clean lighting"
+        }
+      }
+    },
+    "shopifyPicker": {
+      "label": "Import from Shopify"
+    },
+    "models": {
+      "label": "AI Model",
+      "fluxDev": "Flux Dev (balanced)",
+      "fluxSchnell": "Flux Schnell (fast)",
+      "fluxPro": "Flux Pro (highest quality)",
+      "klingStandard": "Kling Standard",
+      "klingPro": "Kling Pro (higher quality)"
+    },
+    "errors": {
+      "fileTooLarge": "File exceeds the 5 MB limit. Choose a smaller file or use a URL.",
+      "fileReadError": "Could not read file.",
+      "noCredits": "Not enough credits. Please purchase more.",
+      "uploadFailed": "Image upload failed. Please try again.",
+      "jobFailed": "Generation failed. Your credit has been refunded.",
+      "generic": "An error occurred. Please try again."
+    },
+    "compliance": {
+      "title": "Possible ad policy issue",
+      "categories": {
+        "healthClaim": "unsubstantiated health claim",
+        "guaranteeClaim": "guaranteed-results claim",
+        "miracleClaim": "\"miracle\" language"
+      },
+      "disclaimer": "Automated keyword check, not legal advice — Meta/TikTok make the final call on ad approval."
+    },
+    "success": "Your generation is queued. It will appear here when complete.",
+    "preview": {
+      "emptyHint": "Configure your generation settings and start.",
+      "waiting": "Waiting to process...",
+      "processing": "AI is working...",
+      "completed": "Generation complete!",
+      "failed": "Generation failed",
+      "refunded": "Your credit has been refunded.",
+      "download": "Download",
+      "share": "Share",
+      "edit": "Edit"
+    },
+    "postEditor": {
+      "title": "Quick edit",
+      "aspect": "Crop",
+      "aspects": {
+        "original": "Original",
+        "square": "1:1",
+        "portrait45": "4:5",
+        "story": "9:16",
+        "landscape": "16:9"
+      },
+      "caption": "Caption",
+      "captionPlaceholder": "Add a caption on the image (optional)",
+      "download": "Download edited image",
+      "loadFailed": "Could not load the image for editing. Use the regular download instead."
+    }
+  },
+  "history": {
+    "title": "Generation History",
+    "empty": "No generations yet.",
+    "emptyAction": "Create your first generation",
+    "useAsTemplate": "Use as template",
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "outputType": {
+      "ugcPhoto": "UGC Photo",
+      "ugcVideo": "UGC Video",
+      "lifestyle": "Lifestyle"
+    },
+    "workspaceFilter": {
+      "all": "All"
+    }
+  },
+  "workspaces": {
+    "title": "Workspaces",
+    "subtitle": "Separate spaces for each client, with their own brand kit and credit allocation.",
+    "empty": "No workspaces yet. Create one for each client you manage.",
+    "new": "New Workspace",
+    "name": "Name",
+    "namePlaceholder": "e.g. Acme Cosmetics",
+    "brandColor": "Brand Color",
+    "logoUrl": "Logo URL",
+    "logoUrlPlaceholder": "https://example.com/logo.png",
+    "creditAllocation": "Credit Allocation",
+    "creditAllocationPlaceholder": "Unlimited",
+    "creditsUsed": "{used} / {allocation} credits used",
+    "creditsUsedUnlimited": "{used} credits used",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this workspace? Its generation history will be kept but unassigned.",
+    "create": "Create",
+    "saved": "Workspace saved.",
+    "saveFailed": "Failed to save workspace.",
+    "deleted": "Workspace deleted.",
+    "deleteFailed": "Failed to delete workspace."
+  },
+  "workspaceSwitcher": {
+    "personal": "Personal",
+    "manage": "Manage workspaces"
+  },
+  "integrations": {
+    "title": "Integrations",
+    "subtitle": "Connect your store to import products straight into the Studio.",
+    "platforms": {
+      "shopify": "Shopify",
+      "trendyol": "Trendyol",
+      "amazon": "Amazon",
+      "etsy": "Etsy",
+      "ebay": "eBay",
+      "aliexpress": "AliExpress"
+    },
+    "shopify": {
+      "shopDomain": "Shop domain",
+      "shopDomainPlaceholder": "your-store.myshopify.com",
+      "accessToken": "Admin API access token",
+      "accessTokenPlaceholder": "shpat_...",
+      "connect": "Connect",
+      "connecting": "Connecting...",
+      "connected": "Connected",
+      "disconnect": "Disconnect",
+      "connectFailed": "Could not verify store credentials. Check the domain and token.",
+      "connectedTo": "Connected to {shop}",
+      "disconnected": "Store disconnected.",
+      "disconnectFailed": "Failed to disconnect."
+    },
+    "comingSoon": "Coming soon",
+    "comingSoonDesc": "Requires the marketplace's own developer app approval — we'll wire this up when you're ready to connect {platform}."
+  },
+  "developer": {
+    "title": "Developer",
+    "subtitle": "API keys and webhooks for automating generations outside the dashboard.",
+    "apiKeys": {
+      "title": "API Keys",
+      "empty": "No API keys yet.",
+      "new": "New API Key",
+      "namePlaceholder": "e.g. Production server",
+      "create": "Create",
+      "revoke": "Revoke",
+      "revokeConfirm": "Revoke this API key? Any integration using it will stop working immediately.",
+      "newKeyWarning": "Copy this key now — you won't be able to see it again.",
+      "createFailed": "Failed to create API key.",
+      "revoked": "API key revoked.",
+      "revokeFailed": "Failed to revoke API key."
+    },
+    "webhook": {
+      "title": "Webhook",
+      "description": "Get a signed POST request whenever a generation completes or fails.",
+      "url": "Endpoint URL",
+      "save": "Save",
+      "remove": "Remove",
+      "secretLabel": "Signing secret (verify the X-UGC-Signature header)",
+      "saved": "Webhook saved.",
+      "saveFailed": "Failed to save webhook.",
+      "removed": "Webhook removed.",
+      "removeFailed": "Failed to remove webhook."
+    },
+    "quickstart": {
+      "title": "Quickstart"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "showcase": "Showcase",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "login": "Log in",
+      "signup": "Start for Free"
+    },
+    "hero": {
+      "title": "Launch Ads\nin Minutes, Not Weeks",
+      "subtitle": "Skip the influencer sourcing, agency fees, and days-long shoots. Turn a single product photo into scroll-stopping UGC photos and videos in seconds.",
+      "cta": "Start for Free",
+      "ctaSubtitle": "5 free credits, no credit card required",
+      "audienceToggle": {
+        "brand": "For E-commerce Brands",
+        "agency": "For Agencies"
+      },
+      "bullets": {
+        "brand": [
+          "Turn your own product photos into UGC content in minutes",
+          "No photographer, models, or studio required",
+          "Ready for TikTok, Reels, and ad platforms instantly"
+        ],
+        "agency": [
+          "Produce for every client account without hiring more editors",
+          "Protect your margins — no per-video production costs",
+          "Deliver client creative in minutes instead of days"
+        ]
+      }
+    },
+    "trust": {
+      "title": "Built for every content-heavy niche",
+      "poweredBy": "Powered by fal.ai's latest image & video generation models",
+      "sectorsLabel": "Supported niches",
+      "sectors": ["Beauty & Cosmetics", "Fashion & Apparel", "Tech & Gadgets", "Supplements & Wellness", "Performance Agencies"],
+      "metrics": [
+        { "value": "3", "label": "Output formats" },
+        { "value": "<30s", "label": "Average generation time" },
+        { "value": "5", "label": "Free trial credits" }
+      ]
+    },
+    "comparison": {
+      "title": "Stop Paying Agency Prices for UGC",
+      "subtitle": "Traditional production means casting, shooting, and editing — and waiting days for it. Here's the difference.",
+      "traditional": {
+        "title": "Traditional Production",
+        "items": [
+          { "label": "Timeline", "value": "3–10 days per video" },
+          { "label": "Cost", "value": "$300–$1,500+ per video" },
+          { "label": "Revisions", "value": "Re-book talent & reshoot" },
+          { "label": "Equipment", "value": "Camera, lighting, location, crew" }
+        ]
+      },
+      "ours": {
+        "title": "With {appName}",
+        "items": [
+          { "label": "Timeline", "value": "Under 60 seconds per output" },
+          { "label": "Cost", "value": "1–3 credits per output" },
+          { "label": "Revisions", "value": "Regenerate instantly, unlimited tries" },
+          { "label": "Equipment", "value": "Just a product photo" }
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "From product photo to ready-to-post content in three steps.",
+      "steps": [
+        { "title": "Upload Your Product", "description": "Add a product photo via URL or file upload — that's your only raw material." },
+        { "title": "Pick Your Output", "description": "Choose UGC Photo, UGC Video, or Lifestyle Scene, then a background: automatic, stock gallery, or your own." },
+        { "title": "Download & Post", "description": "Get your generated content in seconds and publish it straight to TikTok, Reels, or your ad account." }
+      ]
+    },
+    "showcase": {
+      "title": "See What Gets Generated",
+      "subtitle": "Example outputs across the niches brands and agencies use us for most.",
+      "disclaimer": "Illustrative preview — actual generations are created from your own product photo on the platform in seconds.",
+      "categories": [
+        { "name": "Beauty & Cosmetics" },
+        { "name": "Fashion & Apparel" },
+        { "name": "Tech & Gadgets" },
+        { "name": "Supplements & Wellness" }
+      ]
+    },
+    "useCases": {
+      "title": "Built for Every Team",
+      "subtitle": "Whoever is producing the content, go from product photo to finished creative on the same platform.",
+      "items": [
+        { "title": "E-commerce Brands", "description": "Turn your own product catalog into UGC-style photos and videos without booking a shoot." },
+        { "title": "Agencies", "description": "Produce UGC creative for every client account from one dashboard, without adding production headcount." },
+        { "title": "Content Creators", "description": "Generate polished product content fast, without needing a camera, models, or a studio." }
+      ]
+    },
+    "features": {
+      "title": "Why UGC Studio?",
+      "items": [
+        {
+          "title": "3 Output Formats",
+          "description": "UGC photo, UGC video, and lifestyle scenes — one platform for all your needs."
+        },
+        {
+          "title": "In Seconds",
+          "description": "AI-powered generation delivers professional content in seconds instead of hours."
+        },
+        {
+          "title": "Fully Customizable",
+          "description": "Add your own background, pick from the stock gallery, or use a custom prompt for full control."
+        },
+        {
+          "title": "Simple, Credit-Based Pricing",
+          "description": "Pay only for what you generate — 1 credit for a photo, 2 for a lifestyle scene, 3 for a video. No contracts."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Choose the plan that fits your needs. Credit packs are launching soon — start with free credits for now.",
+      "footnote": "1 UGC photo = 1 credit · 1 lifestyle scene = 2 credits · 1 UGC video = 3 credits",
+      "badge": {
+        "popular": "Most Popular"
+      },
+      "billingToggle": { "monthly": "Monthly", "annual": "Annual", "save": "Save 20%" },
+      "annualBilledNote": "billed annually",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "priceAnnual": "$0",
+          "period": "",
+          "periodAnnual": "",
+          "credits": "5 credits",
+          "description": "A great way to try it out.",
+          "features": [
+            "5 free credits",
+            "UGC photo, video, and lifestyle",
+            "Stock background gallery",
+            "No credit card required"
+          ],
+          "cta": "Start for Free"
+        },
+        {
+          "name": "Starter",
+          "price": "$9",
+          "priceAnnual": "$7",
+          "period": "/mo",
+          "periodAnnual": "/mo",
+          "credits": "50 credits",
+          "description": "For small brands publishing content regularly.",
+          "features": [
+            "50 credits/month",
+            "Priority processing queue",
+            "Custom background uploads",
+            "Email support"
+          ],
+          "cta": "Upgrade",
+          "savingsBadge": "Save 20%"
+        },
+        {
+          "name": "Pro",
+          "price": "$24",
+          "priceAnnual": "$19",
+          "period": "/mo",
+          "periodAnnual": "/mo",
+          "credits": "200 credits",
+          "description": "For high-volume e-commerce brands and agencies.",
+          "features": [
+            "200 credits/month",
+            "Highest processing priority",
+            "Batch generation",
+            "Priority support"
+          ],
+          "cta": "Upgrade",
+          "highlighted": true,
+          "savingsBadge": "Save 20%"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "question": "How do credits work?", "answer": "Each generation costs credits based on output type: 1 credit for a UGC photo, 2 for a lifestyle scene, 3 for a UGC video. Every account starts with 5 free credits." },
+        { "question": "What happens if a generation fails?", "answer": "Your credit is automatically refunded — you're never charged for a failed generation." },
+        { "question": "Can I cancel anytime?", "answer": "Yes. Paid plans can be cancelled anytime from your account settings — there's no lock-in contract." },
+        { "question": "Is my uploaded product image safe?", "answer": "Your images are stored securely and only used to generate the content you request." },
+        { "question": "Can I use the generated content in my ads?", "answer": "Yes, you own the content you generate. Staying within each ad platform's policies (Meta, TikTok, etc.) is your responsibility, since those policies change over time." },
+        { "question": "Is there a free plan?", "answer": "Yes — sign up and get 5 free credits, no credit card required." }
+      ]
+    },
+    "ctaBottom": {
+      "title": "Get Started Now",
+      "subtitle": "Try it today with 5 free credits.",
+      "cta": "Create Free Account"
+    },
+    "footer": {
+      "description": "Turn a single product photo into professional UGC photos and videos in seconds.",
+      "useCasesTitle": "Use Cases",
+      "useCasesItems": ["E-commerce Brands", "Agencies", "Content Creators"],
+      "featuresTitle": "Features",
+      "featuresItems": ["UGC Photos", "UGC Videos", "Lifestyle Scenes", "Custom Backgrounds"],
+      "companyTitle": "Company",
+      "companyItems": ["Pricing", "Showcase", "FAQ"],
+      "legalTitle": "Legal",
+      "legalItems": ["Terms of Service", "Privacy Policy", "Cookie Policy"],
+      "copyright": "© {year} UGC Studio · Powered by fal.ai"
+    }
+  },
+  "legal": {
+    "backToHome": "Back to home",
+    "lastUpdated": "Last updated: August 2026",
+    "terms": {
+      "title": "Terms of Service",
+      "sections": [
+        { "heading": "Acceptance of Terms", "body": "By creating an account or using {appName}, you agree to these Terms of Service. If you do not agree, please do not use the service." },
+        { "heading": "Description of Service", "body": "{appName} turns a single product photo into AI-generated UGC photos, videos, and lifestyle scenes, powered by fal.ai's image and video generation models." },
+        { "heading": "Accounts & Credits", "body": "Every account starts with free trial credits. Each generation consumes credits based on output type. If a generation fails, your credit is automatically refunded." },
+        { "heading": "Ownership of Generated Content", "body": "You own the content you generate. You are responsible for ensuring your use of that content complies with the policies of any platform where you publish it, such as Meta or TikTok." },
+        { "heading": "Acceptable Use", "body": "You may only upload product images you have the rights to use. You may not use the service for unlawful purposes or to infringe on the rights of others." },
+        { "heading": "Subscription & Cancellation", "body": "Paid plans can be cancelled at any time from your account settings. There are no long-term contracts." },
+        { "heading": "Limitation of Liability", "body": "The service is provided \"as is.\" Generated content quality can vary, and we are not liable for indirect or consequential damages arising from your use of the service." },
+        { "heading": "Changes to These Terms", "body": "We may update these terms from time to time. Continued use of the service after changes take effect constitutes acceptance of the revised terms." },
+        { "heading": "Contact", "body": "If you have questions about these terms, please reach out through your account or the support channels available on this site." }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        { "heading": "Information We Collect", "body": "We collect your account information (name, email), the product images you upload, the content generated on your behalf, and basic usage data." },
+        { "heading": "How We Use Your Information", "body": "We use this information to provide the generation service, process your requests through our AI infrastructure provider, manage your account and credits, and communicate important service updates." },
+        { "heading": "Data Storage & Security", "body": "Your account data and images are stored securely, with access limited to what is needed to operate the service." },
+        { "heading": "Third-Party Processors", "body": "We use fal.ai to process image and video generation. Uploaded images are sent to fal.ai solely to produce the content you request." },
+        { "heading": "Your Rights", "body": "You may request access to, correction of, or deletion of your account data at any time." },
+        { "heading": "Cookies", "body": "See our Cookie Policy for details on the cookies used to operate this service." },
+        { "heading": "Changes to This Policy", "body": "We may update this policy from time to time. We encourage you to review it periodically." },
+        { "heading": "Contact", "body": "If you have questions about this policy, please reach out through your account or the support channels available on this site." }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "sections": [
+        { "heading": "What Are Cookies", "body": "Cookies are small files stored in your browser that help websites remember information about your visit." },
+        { "heading": "Essential Cookies", "body": "We use essential cookies to keep you signed in and maintain your session. The service cannot function without these." },
+        { "heading": "No Third-Party Advertising Cookies", "body": "We do not currently use third-party advertising or tracking cookies." },
+        { "heading": "Managing Cookies", "body": "You can control cookies through your browser settings. Disabling essential cookies may prevent you from signing in." },
+        { "heading": "Changes to This Policy", "body": "We may update this policy from time to time. We encourage you to review it periodically." }
+      ]
+    }
+  },
+  "settings": {
+    "title": "Account Settings",
+    "profile": "Profile",
+    "fullName": "Full Name",
+    "email": "Email",
+    "language": "Language",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "ru": "Русский"
+    },
+    "saved": "Settings saved.",
+    "saving": "Saving...",
+    "saveFailed": "Failed to save. Please try again.",
+    "demoBanner": "Demo mode active — no real data is saved.",
+    "billing": {
+      "title": "Billing",
+      "plans": { "FREE": "Free", "STARTER": "Starter", "PRO": "Pro" },
+      "creditsLabel": "{count} credits / mo",
+      "currentPlan": "Current plan",
+      "upgrade": "Upgrade",
+      "redirecting": "Redirecting...",
+      "notConfigured": "Payments aren't set up yet. Please try again later."
+    },
+    "danger": "Danger Zone",
+    "deleteAccount": "Delete Account",
+    "deleting": "Deleting...",
+    "deleteFailed": "Failed to delete account. Please try again.",
+    "deleteConfirm": "This action is irreversible. Your account and all data will be deleted."
+  }
+}

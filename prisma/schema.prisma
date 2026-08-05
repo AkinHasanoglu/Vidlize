@@ -1,0 +1,147 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id        String   @id
+  email     String   @unique
+  fullName  String?
+  avatarUrl String?
+  credits   Int      @default(5)
+  role      Role     @default(USER)
+  locale    String   @default("tr")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  jobs      GenerationJob[]
+  workspaces Workspace[]
+  storeConnections StoreConnection[]
+  apiKeys   ApiKey[]
+  webhookEndpoint WebhookEndpoint?
+
+  plan                       Plan    @default(FREE)
+  subscriptionStatus         String?
+  lemonSqueezyCustomerId     String?
+  lemonSqueezySubscriptionId String? @unique
+}
+
+model ApiKey {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name       String
+  keyPrefix  String
+  keyHash    String    @unique
+  lastUsedAt DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([userId])
+}
+
+model WebhookEndpoint {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  url       String
+  secret    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model StoreConnection {
+  id          String        @id @default(cuid())
+  userId      String
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  platform    StorePlatform
+  shopDomain  String
+  accessToken String
+  status      String        @default("CONNECTED")
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  @@unique([userId, platform])
+  @@index([userId])
+}
+
+enum StorePlatform {
+  SHOPIFY
+  TRENDYOL
+  AMAZON
+  ETSY
+  EBAY
+  ALIEXPRESS
+}
+
+model Workspace {
+  id               String   @id @default(cuid())
+  ownerId          String
+  owner            User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  name             String
+  brandColor       String   @default("#8B5CF6")
+  logoUrl          String?
+  creditAllocation Int?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  jobs             GenerationJob[]
+
+  @@index([ownerId])
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Plan {
+  FREE
+  STARTER
+  PRO
+}
+
+model GenerationJob {
+  id             String     @id @default(cuid())
+  userId         String
+  user           User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId    String?
+  workspace      Workspace? @relation(fields: [workspaceId], references: [id], onDelete: SetNull)
+  outputType     OutputType
+  backgroundType BgType
+  sourceImageUrl String
+  backgroundUrl  String?
+  customPrompt   String?
+  outputMediaUrl String?
+  status         JobStatus  @default(PENDING)
+  errorMessage   String?
+  creditsCost    Int        @default(1)
+  model          String?
+  falRequestId   String?
+  attempts       Int        @default(0)
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+
+  @@index([userId, createdAt])
+  @@index([workspaceId, createdAt])
+  @@index([status])
+}
+
+enum OutputType {
+  UGC_PHOTO
+  UGC_VIDEO
+  LIFESTYLE
+}
+
+enum BgType {
+  NONE
+  STOCK
+  CUSTOM
+}
+
+enum JobStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
